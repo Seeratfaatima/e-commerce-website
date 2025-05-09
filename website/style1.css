@@ -1,0 +1,341 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 10px solid orange;
+    border-top: 10px black solid;
+    border-radius: 50%;
+    animation-name: loading;
+    animation: loading 3s ease-in-out 1s infinite normal;
+
+}
+@keyframes loading{
+    from
+    {
+     transform: rotate(0deg);
+    }
+    to{
+     transform: rotate(360deg);
+    }
+}
+/*div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    animation: coloranimate 4s ease-in 1s infinite alternate; 
+    
+}
+
+@keyframes coloranimate{
+   0%
+   {
+    left: 0px;
+    background-color: aqua;
+   }
+   50%
+   {
+    background-color: blue;
+   }
+   100%
+   {
+    right: 200px;
+    background-color: brown;
+    color: white;
+   }
+}
+*/
+/*div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px black solid;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    transition: all 1s ease-in;
+    /*transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;*/
+   /* transform: rotate(90deg);*/
+    /*rotate: x 180deg;
+    
+}
+div:hover{
+    background-color: chartreuse;
+    font-size: 20px;
+    color: white;
+    /*transform: skew(45deg);*/
+    /*transform: rotate(360deg);
+    transform: scaleY(2);
+    transform: translate(400px, 300PX);
+}
+div:active{
+    background-color: blueviolet;
+
+}
+*/
+
+/*#outer{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}*/
+/*ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}*/
+
+/*body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+#box2{
+    
+    background-color: blueviolet;
+    height: 200px;
+    flex-grow: 2;
+}
+#box3{
+    background-color:crimson;
+    height: 75px;
+}
+#box4{
+    background-color:darkgoldenrod;
+}
+#box5{
+    background-color:hotpink;
+    
+}*/
+/*body{
+    background-image: url("https://images.unsplash.com/photo-1537182534312-f945134cce34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwdmlld3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+header{
+    width: 1300px;
+    height: 60px;
+    background-color:#E29578;
+}
+#one {
+    font-size: 25px;
+    text-decoration: none;
+    color: #268bb0;
+}
+#two {
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+}
+#three{
+    text-transform: capitalize;
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+}
+#four{
+    text-transform: capitalize;
+    color: white;
+    margin-left: 200px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+    color: white;
+    text-align:end;
+}*/
+/*div{
+    height: 200px;
+    width: 200px;
+    background-image:url("https://images.unsplash.com/photo-1537182534312-f945134cce34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwdmlld3xlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 400px;
+    font-size: 90px;
+}
+p{
+    font-size: 20px;
+}*/
+/*header{
+    width: 1300px;
+    height: 60px;
+    background-color:black;
+}
+#one {
+    font-size: 25px;
+    text-decoration: none;
+    color: #f08804;
+}
+#two {
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+}
+#three{
+    text-transform: capitalize;
+    color: white;
+    margin-left: 200px;
+    text-decoration: none;
+}
+#four{
+    text-transform: capitalize;
+    color: white;
+    margin-left: 200px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+button{
+    background-color: #f08804;
+    color: white;
+    text-align:end;
+}
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content{
+    height: 600px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}*/
+/*#box{
+    background-color:blue;
+}
+.heading {
+   color:red;
+}
+button{
+    background-color:green;
+}
+h1{
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 200;
+}
+h2{
+    font-weight: 600;
+}
+a{
+    text-decoration:underline;
+}
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    line-height: 26px;
+    text-transform: capitalize;
+    
+}
+#two{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: capitalize;
+}*/
+/*
+*{
+  font-family: 'Times New Roman';
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}*/
+
+/*div{
+    height: 100px;
+    background-color: blueviolet;
+    width: 200px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: brown;
+    text-align: left;
+    border-radius: 15px;
+    padding: 15px;
+}
+h1{
+    width: 200px;
+    height: 100px;
+    background-color:cornflowerblue;
+    border-width: 4px;
+    border-style:dotted;
+    border-color: aqua;
+    text-align: left;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px;
+}
+p{
+    width: 700px;
+    height: 50px;
+    background-color: coral;
+    /*border-width: 4px;
+    border-style:dashed;
+    border-color:darkgoldenrod;
+    border: 4px dashed darkgoldenrod;
+    text-align: left;
+    border-radius: 10px;}*/
+    
+
+
+
+
+
